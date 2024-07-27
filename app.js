@@ -2,7 +2,7 @@ import { Server } from "socket.io";
 
 const io = new Server({
   cors: {
-    origin: "http://localhost:5173",
+    origin: "https://property-listing-website-frontend-0i2v.onrender.com",
   },
 });
 
